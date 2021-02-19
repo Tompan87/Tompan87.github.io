@@ -39,7 +39,6 @@ header {
   display: flex;
   flex-direction: row;
   align-items: center;
-  
 }
 
 .info {
@@ -74,7 +73,7 @@ header {
   flex: auto;
   align-items: center;
 }
-.example{
+.example {
   display: flex;
   flex-direction: row;
   margin: 3em;
@@ -82,7 +81,7 @@ header {
 .example--img img {
   width: auto;
   height: 200px;
-  border-radius: 25px
+  border-radius: 25px;
 }
 
 .buttons {
@@ -102,7 +101,7 @@ header {
 .footer {
   display: flex;
   align-items: center;
-  justify-content:center;
+  justify-content: center;
   height: 5em;
 }
 
