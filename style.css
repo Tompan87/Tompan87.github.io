@@ -71,21 +71,18 @@ header {
 .projects {
   display: flex;
   flex-direction: column;
-  
   flex: auto;
   align-items: center;
 }
-
-.projects--img img {
-  width: auto;
-  height: 200px;
-  border-radius: 25px
-}
-
 .example{
   display: flex;
   flex-direction: row;
   margin: 3em;
+}
+.example--img img {
+  width: auto;
+  height: 200px;
+  border-radius: 25px
 }
 
 .buttons {
@@ -96,7 +93,6 @@ header {
 .button {
   border: none;
   background: linear-gradient(270deg, #faa245, #d8328a 37.25%, #753872 100%);
-
   text-align: center;
   border-radius: 2rem;
   cursor: pointer;
@@ -106,9 +102,7 @@ header {
 .footer {
   display: flex;
   align-items: center;
-  
   justify-content:center;
-  
   height: 5em;
 }
 
@@ -116,7 +110,7 @@ header {
   .main {
     flex-direction: column;
   }
-  .projects {
+  .example {
     flex-direction: column;
   }
 }
